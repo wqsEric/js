@@ -1,0 +1,61 @@
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,select,textarea,span,img,a,em,strong,*{ margin:0; padding:0;}
+body{ font-family:"宋体"; font-size:12px; color:#000000; background:#ffffff;}
+ul,ol,li{ list-style:none;}
+h1,h2,h3,h4,h5,h6{ font-size:14px;}
+input,select,textarea{ vertical-align:middle;}
+img{ border:none; vertical-align:middle;}
+a{ text-decoration:none; color:#000000;}
+a:hover{ color:#009999;}
+.clear{ clear:both; height:0px; width:0px; overflow:hidden;}
+#banner{
+    width:1004px;
+    height:460px;
+    position:relative;
+    margin:20px auto;
+}
+#left{
+    position:absolute;
+    top:50%;
+    left:3%;
+}
+#right{
+    position:absolute;
+    top:50%;
+   right:3%;
+}
+#imgs{
+    width:1004px;
+    height:460px;
+    overflow:hidden;
+}
+#imgs li{
+      width:1004px;
+      height:460px;
+      float:left;
+}
+#imgs li img{
+    width:1004px;
+    height:460px;
+}
+#button{
+    position:absolute;
+    bottom:5px;
+    right:10px;
+}
+#button li{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#ccc;
+    float: left;
+    margin-right:5px;
+    text-align:center;
+    line-height:40px;
+    font-size:20px;
+    font-weight:800;
+}
+
+.active{
+    background:blue!important;
+    color:#fff;
+}
